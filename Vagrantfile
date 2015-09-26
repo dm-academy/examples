@@ -5,5 +5,5 @@
 Vagrant.configure(2) do |config|
 
   config.vm.box = "precise64"
-
+  config.vm.provision 	:shell, path: "./101059159-Lab02.sh"
 end
