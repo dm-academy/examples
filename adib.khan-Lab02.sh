@@ -5,11 +5,11 @@
 # To run, type ./YourID-Lab02.sh (you need the "./")
 # It must have permissions starting with a "7"
 
-#mkdir -p main/{A/{B,C,D},E/{F,G},H/{I,J/{K,L},M}}
-#touch main/{A/{aa,B/bb,C/cc,D/dd},E/{ee,F/ff,G/gg},H/{hh,I/ii,J/{jj,K/kk,L/ll},M/mm}}
+mkdir -p main/{A/{B,C,D},E/{F,G},H/{I,J/{K,L},M}}
+touch main/{A/{aa,B/bb,C/cc,D/dd},E/{ee,F/ff,G/gg},H/{hh,I/ii,J/{jj,K/kk,L/ll},M/mm}}
 
-mkdir -p main/{A/{B,C,D}
-touch main/{A/{aa,B/bb,C/cc,D/dd}}
+#mkdir -p main/{A/{B,C,D}
+#touch main/{A/{aa,B/bb,C/cc,D/dd}}
 
 
 #apt-get install -y tree
