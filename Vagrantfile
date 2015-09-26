@@ -5,6 +5,6 @@
 Vagrant.configure(2) do |config|
 
   config.vm.box = "precise64"
-  config.ssh.private_key_path = "~/.ssh/insecure_private_key"
+  config.vm.provision		:shell, path: "./bock6721-Lab02.sh"
 
 end
