@@ -1,2 +1,3 @@
-Hello Vagrant, Wassup
+Hello Earth, Wassup
 What do you know, it's me again
+"Hello" Earthlings
