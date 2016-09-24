@@ -1,5 +1,5 @@
-Hello World.
+Hello Mars.
 
 This is a test file for GitHub so I can learn how this works.
 
-Hello Again.
+Hello Mars.
