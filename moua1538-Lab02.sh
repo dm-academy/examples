@@ -7,14 +7,14 @@
 mkdir A C D
 cd A
 touch aa
-mkdir B C D
+mkdir B M N
 cd B
 touch bb
 cd ..
-cd C
+cd M
 touch cc
 cd ..
-cd D
+cd N
 touch dd
 cd ..
 cd ..
