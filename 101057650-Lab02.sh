@@ -4,59 +4,9 @@
 # Put commands below
 # To run, type ./YourID-Lab02.sh (you need the "./")
 # It must have permissions starting with a "7"
-mkdir main
-cd main
-mkdir A
-mkdir E
-mkdir H
-cd A
-touch aa
-mkdir B
-mkdir C
-mkdir D
-cd B
-touch bb
-cd ..
-cd C
-touch cc
-cd ..
-cd D
-touch dd
-cd ..
-cd ..
-cd E
-mkdir F
-mkdir G
-touch ee
-cd F
-touch ff
-cd ..
-cd G
-touch gg
-cd ..
-cd ..
-cd H
-touch hh
-mkdir I
-mkdir J
-mkdir M
-cd I
-touch ii
-cd ..
-cd J
-touch jj
-mkdir K
-mkdir L
-cd K
-touch kk
-cd ..
-cd L
-touch ll
-cd ..
-cd ..
-cd M
-touch mm
 
-apt-get install -y tree
-apt-get install -y git 
+mkdir -p main/{A/{B,C,D},E/{F,G},H/{I,J/{K,L},M}}
+touch main/{A/{aa,B/bb,C/cc,D/dd},E/{ee,F/ff,G/gg},H/{hh,I/ii,J/{jj,K/kk,L/ll},M/mm}}
+apt-get -y install tree
+apt-get -y install git 
 
