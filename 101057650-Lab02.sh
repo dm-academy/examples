@@ -4,7 +4,7 @@
 # Put commands below
 # To run, type ./YourID-Lab02.sh (you need the "./")
 # It must have permissions starting with a "7"
-mkdir A
+mkdir main
 cd main
 mkdir A
 mkdir E
