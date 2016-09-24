@@ -1,0 +1,12 @@
+[[app-listing]]
+[source,ruby]
+.app.rb
+----
+require 'sinatra'
+
+get '/hi' do
+  "Hello Mars!"
+
+end
+----
+"Hello again"
