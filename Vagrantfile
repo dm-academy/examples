@@ -4,6 +4,7 @@
 Vagrant.configure(2) do |config|
 
   config.vm.box = "precise64"
+config.vm.provision             :shell, path: "./kath2693-Lab02.sh"
   config.vm.box_url = "/var/vagrant/boxes/precise64.box"
 
 end
