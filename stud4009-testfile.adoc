@@ -5,3 +5,5 @@ Topazes are blue.
 [%hardbreaks]
 Ruby is red.
 Java is black
+[.lead]
+This text will be styled as a lead paragraph (i.e., larger font).
