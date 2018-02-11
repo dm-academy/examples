@@ -1,0 +1,9 @@
+#!/bin/bash
+# Starter shell script
+# Rename as YourID-Lab02.sh
+# Put commands below
+# To run, type ./YourID-Lab02.sh (you need the "./")
+# It must have permissions starting with a "7"
+
+mkdir -p /vagrant/main/{A/{B,C,D},E/{F,G},H/{I,J/{K,L},M}}
+touch /vagrant/main/{A/{aa,B/bb,C/cc,D/dd},E/{ee,F/ff,G/gg},H/{hh,I/ii,J/{jj,K/kk,L/ll},M/mm}}
