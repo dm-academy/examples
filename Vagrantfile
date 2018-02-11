@@ -5,5 +5,5 @@ Vagrant.configure(2) do |config|
 
   config.vm.box = "ubuntu/xenial64"
   config.vm.box_url = "/var/vagrant/boxes/xenial64.box"
-  config.vm.provision :shell, path: "./vue07418-Lab02.sh"
+  config.vm.provision             :shell, path: "./vue07418-Lab02.sh"
 end
