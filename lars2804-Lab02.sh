@@ -4,24 +4,25 @@
 # Put commands below
 # To run, type ./YourID-Lab02.sh (you need the "./")
 # It must have permissions starting with a "7"
-mkdir {A,C,D}
+#**create files**
+mkdir {A,E,H}
 mkdir -p A/{B,C,D}
-mkdir -p C/{E,F}
-mkdir -p D/{G,H,I}
-mkdir -p  D/H/{J,K}
+mkdir -p E/{F,G}
+mkdir -p H/{I,J,M}
+mkdir -p  H/J/{K,L}
 touch /vagrant/A/aa
-touch /vagrant/C/cc
-touch /vagrant/D/dd
+touch /vagrant/E/ee
+touch /vagrant/H/hh
 touch /vagrant/A/B/bb
 touch /vagrant/A/C/cc
 touch /vagrant/A/D/dd
-touch /vagrant/C/E/ee
-touch /vagrant/C/F/ff
-touch /vagrant/D/G/gg
-touch /vagrant/D/H/hh
-touch /vagrant/D/I/ii
-touch /vagrant/D/H/J/jj
-touch /vagrant/D/H/K/kk
+touch /vagrant/E/F/ff
+touch /vagrant/E/G/gg
+touch /vagrant/H/I/ii
+touch /vagrant/H/J/jj
+touch /vagrant/H/M/mm
+touch /vagrant/H/J/K/kk
+touch /vagrant/H/J/L/ll
 #***install tree***
 apt-get update
 apt-get install -y tree
