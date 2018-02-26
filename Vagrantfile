@@ -5,5 +5,5 @@ Vagrant.configure(2) do |config|
 
   config.vm.box = "ubuntu/xenial64"
   config.vm.box_url = "/var/vagrant/boxes/xenial64.box"
-
+  config.vm.provision  :shell, path: "./sunk1343-lab02.sh"
 end
