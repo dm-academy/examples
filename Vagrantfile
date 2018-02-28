@@ -4,6 +4,6 @@
 Vagrant.configure(2) do |config|
 
   config.vm.box = "ubuntu/xenial64"
-  config.vm.provision             :shell, path: "./MyStudentID-Lab02.sh"
+  config.vm.provision             :shell, path: "./thap9923-Lab02.sh"
 
 end
