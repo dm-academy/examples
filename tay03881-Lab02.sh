@@ -52,3 +52,6 @@ cd ~/main/D/H/J
 touch jj
 cd ~/main/D/H/K
 touch kk
+apt-get update
+apt-get install -y tree
+apt-get install -y git
