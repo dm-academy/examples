@@ -1,39 +1,39 @@
 
 #!/bin/bash
-mkdir main
-cd main
-mkdir A C D
+mkdir ~/main
+cd ~/main
+mkdir A E H 
 cd A
 touch aa
 mkdir B C D
 cd B
 touch bb
-cd main/A/C
+cd ~/main/A/C
 touch cc
-cd main/A/D
+cd ~/main/A/D
 touch dd
-cd main
-cd C
-touch cc
-mkdir E F
-cd main/C/E
+cd ~/main
+cd E
 touch ee
-cd main/C/F
+mkdir F G
+cd ~/main/E/F
 touch ff
-cd main
-cd D
-touch dd
-mkdir G H I
-cd G
+cd ~/main/E/G
 touch gg
-cd main/D/H
+cd ~/main
+cd H
 touch hh
-mkdir J K
-cd main/D/H/J
-touch jj
-cd main/D/H/K
-touch kk
-cd main/D/I
+mkdir I J M
+cd I
 touch ii
+cd ~/main/H/J
+touch jj
+mkdir K L
+cd ~/main/H/J/K
+touch jj
+cd ~/main/H/J/L
+touch ll
+cd ~/main/H/M
+touch mm
  
 
