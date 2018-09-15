@@ -1,0 +1,12 @@
+Hello Mars
+Hello World
+Rubies are red, +
+Topazes are blue.
+
+[%hardbreaks]
+Ruby is red.
+Java is black.
+[.lead]
+Testing the text will be styled as a lead paragraph.
+testing bold *constrained* and **un**constrained
+
