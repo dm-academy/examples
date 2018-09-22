@@ -7,33 +7,5 @@
 sudo apt-get install -y tree
 sudo apt-get install -y git
 
-create() {
-mkdir $1
-file =  $1$1
-file_lower = ${file,,}
-echo $file_lower
-cd $1
-touch $file_lower
-cd .. 
-}
-
-create A
-cd A
-create B
-create C
-create D
-cd ..
-create E
-cd E
-create F
-create G
-cd ..
-create H
-cd H
-create I
-create J
-cd J
-create K
-create L
-cd ..
-create M
+mkdir -p ~/main/{A/{B,C,D},E/{F,G},H/{I,J/{K,L},M}}
+touch ~/main/{A/{aa,B/bb,C/cc,D/dd},E/{ee,F/ff,G/gg},H/{hh,I/ii,J/{jj,K/kk,L/ll},M/mm}}
