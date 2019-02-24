@@ -1,4 +1,5 @@
 #!/bin/bash
+cd ~
 mkdir main
 cd main
 mkdir A E H
