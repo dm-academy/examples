@@ -14,5 +14,6 @@ touch ee F/ff G/gg
 cd ../H
 mkdir I J M
 touch hh I/ii J/jj M/mm
-
+sudo apt-get install -y tree
+sudo apt-get install -y git
 
